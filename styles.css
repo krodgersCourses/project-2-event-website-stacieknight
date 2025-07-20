@@ -1,7 +1,7 @@
 /* A handy list of color names: https://www.w3schools.com/colors/colors_names.asp */
 
 /* CSS file for a simple webpage layout with header, navigation, article section, and footer */
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: cornflowerblue;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -23,7 +23,7 @@ nav {
   float: left;
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
+  background: azure;
   padding: 20px;
 }
 
@@ -37,7 +37,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
+  background-color: beige;
   height: 300px; /* only for demonstration, should be removed */
 }
 
@@ -50,7 +50,7 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: cornflowerblue;
   padding: 10px;
   text-align: center;
   color: white;
