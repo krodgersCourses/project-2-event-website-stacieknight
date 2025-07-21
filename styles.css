@@ -22,7 +22,6 @@ header {
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
   background: azure;
   padding: 20px;
 }
@@ -37,8 +36,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: beige;
-  height: 300px; /* only for demonstration, should be removed */
+  background-color: beige;  
 }
 
 /* Clear floats after the columns */
@@ -62,4 +60,10 @@ footer {
     width: 100%;
     height: auto;
   }
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* optional: centers the image */
 }
