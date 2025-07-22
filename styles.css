@@ -29,7 +29,21 @@ nav {
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
+  width: 100%;
+}
+
+nav li a {
+  display: block;
+  color: cornflowerblue;
+  padding: 8px 16px;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  background-color: cornflowerblue;
+  color: white;
 }
 
 article {
@@ -79,3 +93,4 @@ footer {
   max-width: 200px;
   height: auto;
 }
+
